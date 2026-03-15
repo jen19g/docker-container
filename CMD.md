@@ -32,3 +32,9 @@ docker build -f Dockerfile.prod -t {image_name}:{version} .
 docker compose -f {docker-compose.pro.yml} up -d
 #docker compose -f docker/docker-compose.prod.yml up -d
 ```
+
+# docker image update
+### Windows
+```sh
+docker-compose pull
+```
