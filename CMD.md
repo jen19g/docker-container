@@ -36,5 +36,10 @@ docker compose -f {docker-compose.pro.yml} up -d
 # docker image update
 ### Windows
 ```sh
-docker-compose pull
+# in case the containers are still running:
+docker compose stop
+# to fetch the latest version
+docker compose pull
+# to start the containers again with the latest version
+docker compose up -d
 ```
